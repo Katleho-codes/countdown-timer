@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 100%;
+  color: white;
+}
+.wrapper {
+  background-image: url("./large-triangles.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 24vh;
+  font-size: 4rem;
+}
+.countdowner {
+  margin-top: 3.5vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.elements {
+  padding: 4vw;
+}
+.element {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.element p {
+  margin-top: -20px;
+}
